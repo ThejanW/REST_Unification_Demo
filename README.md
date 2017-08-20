@@ -29,17 +29,17 @@ SERVICES pane and witness their pulling progress in real time.
 if a particular service is running you can issue cURL commands or create your own client to utilize those services.
 Some example cURL commands would look like,
 
-    `curl -H 'Host: recognition-image.tika.dl' 'http://localhost:8764'`
+    `curl -H 'Host: recognition-image.tika.dl' 'http://localhost:8765'`
     
-    `curl -H 'Host: recognition-image.tika.dl' 'http://localhost:8764/inception/v4/ping'`
+    `curl -H 'Host: recognition-image.tika.dl' 'http://localhost:8765/inception/v4/ping'`
     
-    `curl -H 'Host: recognition-image.tika.dl' 'http://localhost:8764/inception/v4/classify?topk=2&url=https://upload.wikimedia.org/wikipedia/commons/f/f6/Working_Dogs%2C_Handlers_Share_Special_Bond_DVIDS124942.jpg'`
+    `curl -H 'Host: recognition-image.tika.dl' 'http://localhost:8765/inception/v4/classify?topk=2&url=https://upload.wikimedia.org/wikipedia/commons/f/f6/Working_Dogs%2C_Handlers_Share_Special_Bond_DVIDS124942.jpg'`
     
-    `curl -H 'Host: caption-image.tika.dl' 'http://localhost:8764'`
+    `curl -H 'Host: caption-image.tika.dl' 'http://localhost:8765'`
     
-    `curl -H 'Host: caption-image.tika.dl' 'http://localhost:8764/inception/v3/ping'`
+    `curl -H 'Host: caption-image.tika.dl' 'http://localhost:8765/inception/v3/ping'`
     
-    `curl -H 'Host: caption-image.tika.dl' 'http://localhost:8764/inception/v3/captions?beam_size=3&max_caption_length=15&url=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Marcus_Thames_Tigers_2007.jpg/1200px-Marcus_Thames_Tigers_2007.jpg'`
+    `curl -H 'Host: caption-image.tika.dl' 'http://localhost:8765/inception/v3/captions?beam_size=3&max_caption_length=15&url=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Marcus_Thames_Tigers_2007.jpg/1200px-Marcus_Thames_Tigers_2007.jpg'`
 
 # TODO
 
